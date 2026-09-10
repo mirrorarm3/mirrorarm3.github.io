@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>虐身文-含义解析、常见类型与阅读选择指南</title>
+<meta name="description" content="虐身文是什么？本文梳理虐身文的含义、常见题材与情节类型、阅读前的心理与内容提示、选文方法及常见问题，帮助读者理性了解这一类网络文学标签。">
+<meta name="keywords" content="虐身文,虐身文是什么,虐身文类型,虐身文推荐,网络文学标签,虐文">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+  :root{
+    --ink:#231a20;
+    --ink-soft:#5b4b55;
+    --paper:#fbf7f8;
+    --paper-2:#f3eaee;
+    --line:#e2d3da;
+    --rose:#a63b5c;
+    --rose-deep:#7c2542;
+    --rose-soft:#f7e3ea;
+    --plum:#3c2a3a;
+    --radius:14px;
+    --shadow:0 6px 22px rgba(80,30,55,.08);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",system-ui,sans-serif;
+    font-size:16px;
+    line-height:1.8;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--rose-deep);text-decoration:none;}
+  a:hover{color:var(--rose);text-decoration:underline;}
+  img{max-width:100%;}
+  .wrap{width:min(1160px,92vw);margin:0 auto;}
+
+  /* ---------- 顶部 ---------- */
+  .site-header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(251,247,248,.94);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .header-inner{
+    display:flex;align-items:center;justify-content:space-between;
+    gap:18px;padding:14px 0;
+  }
+  .brand{display:flex;align-items:center;gap:12px;}
+  .brand-mark{
+    width:42px;height:42px;flex:0 0 42px;border-radius:12px;
+    background:linear-gradient(140deg,var(--rose) 0%,var(--plum) 100%);
+    color:#fff;display:grid;place-items:center;
+    font-weight:700;font-size:19px;letter-spacing:1px;
+    box-shadow:var(--shadow);
+  }
+  .brand-text strong{display:block;font-size:18px;letter-spacing:.5px;}
+  .brand-text span{display:block;font-size:12.5px;color:var(--ink-soft);letter-spacing:.4px;}
+  .site-nav{display:flex;flex-wrap:wrap;gap:6px;}
+  .site-nav a{
+    padding:7px 13px;border-radius:999px;font-size:14.5px;
+    color:var(--ink-soft);transition:.2s;
+  }
+  .site-nav a:hover{background:var(--rose-soft);color:var(--rose-deep);text-decoration:none;}
+
+  /* ---------- 首屏 ---------- */
+  .hero{
+    background:
+      radial-gradient(900px 380px at 88% -10%,rgba(166,59,92,.16),transparent 62%),
+      linear-gradient(180deg,var(--paper-2) 0%,var(--paper) 100%);
+    border-bottom:1px solid var(--line);
+    padding:56px 0 48px;
+  }
+  .hero-grid{
+    display:grid;grid-template-columns:1.35fr .95fr;gap:44px;align-items:start;
+  }
+  .eyebrow{
+    display:inline-block;font-size:13px;letter-spacing:2px;
+    color:var(--rose-deep);background:var(--rose-soft);
+    padding:5px 14px;border-radius:999px;margin-bottom:18px;
+  }
+  .hero h1{
+    font-size:clamp(27px,3.4vw,40px);
+    line-height:1.32;margin:0 0 18px;letter-spacing:.5px;
+  }
+  .hero h1 em{font-style:normal;color:var(--rose-deep);}
+  .hero p.lead{
+    font-size:16.5px;color:var(--ink-soft);margin:0 0 26px;max-width:56ch;
+  }
+  .hero-actions{display:flex;flex-wrap:wrap;gap:12px;}
+  .btn{
+    display:inline-block;padding:11px 24px;border-radius:999px;
+    font-size:15px;font-weight:600;transition:.2s;border:1px solid transparent;
+  }
+  .btn-primary{background:var(--rose);color:#fff;}
+  .btn-primary:hover{background:var(--rose-deep);color:#fff;text-decoration:none;}
+  .btn-ghost{border-color:var(--line);color:var(--ink-soft);background:#fff;}
+  .btn-ghost:hover{border-color:var(--rose);color:var(--rose-deep);text-decoration:none;}
+
+  .hero-card{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:24px 24px 20px;box-shadow:var(--shadow);
+  }
+  .hero-card h2{
+    font-size:16px;margin:0 0 14px;padding-bottom:12px;
+    border-bottom:1px dashed var(--line);letter-spacing:.5px;
+  }
+  .hero-card ul{margin:0;padding-left:0;list-style:none;}
+  .hero-card li{
+    font-size:14.5px;color:var(--ink-soft);
+    padding:9px 0 9px 24px;position:relative;border-bottom:1px solid #f4ecf0;
+  }
+  .hero-card li:last-child{border-bottom:none;}
+  .hero-card li::before{
+    content:"";position:absolute;left:6px;top:19px;
+    width:7px;height:7px;border-radius:50%;background:var(--rose);
+  }
+
+  /* ---------- 通用区块 ---------- */
+  section{padding:56px 0;}
+  .section-head{margin-bottom:30px;}
+  .section-head .kicker{
+    font-size:13px;letter-spacing:2px;color:var(--rose);font-weight:600;
+  }
+  .section-head h2{
+    font-size:clamp(21px,2.4vw,27px);margin:8px 0 10px;letter-spacing:.4px;
+  }
+  .section-head p{margin:0;color:var(--ink-soft);max-width:70ch;font-size:15.5px;}
+  .alt{background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+
+  /* ---------- 概念解读 ---------- */
+  .concept-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;}
+  .prose p{margin:0 0 16px;color:var(--ink-soft);}
+  .prose p strong{color:var(--ink);}
+  .term-list{display:grid;gap:14px;}
+  .term{
+    background:#fff;border:1px solid var(--line);border-left:4px solid var(--rose);
+    border-radius:10px;padding:16px 18px;
+  }
+  .term h3{margin:0 0 6px;font-size:15.5px;}
+  .term p{margin:0;font-size:14.5px;color:var(--ink-soft);}
+
+  /* ---------- 类型卡片 ---------- */
+  .type-grid{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;
+  }
+  .type-card{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:22px 22px 20px;transition:.22s;
+  }
+  .type-card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:#e7c9d6;}
+  .type-card .tag{
+    display:inline-block;font-size:12px;letter-spacing:1px;
+    background:var(--rose-soft);color:var(--rose-deep);
+    padding:3px 10px;border-radius:999px;margin-bottom:12px;
+  }
+  .type-card h3{margin:0 0 10px;font-size:17px;}
+  .type-card p{margin:0;font-size:14.5px;color:var(--ink-soft);}
+
+  /* ---------- 阅读提示 双栏 ---------- */
+  .notice-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+  .notice{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:24px;
+  }
+  .notice h3{
+    margin:0 0 14px;font-size:17px;display:flex;align-items:center;gap:9px;
+  }
+  .notice h3 .dot{
+    width:10px;height:10px;border-radius:50%;background:var(--rose);flex:0 0 10px;
+  }
+  .notice ol,.notice ul{margin:0;padding-left:20px;color:var(--ink-soft);font-size:14.8px;}
+  .notice li{margin-bottom:9px;}
+  .notice li:last-child{margin-bottom:0;}
+
+  /* ---------- 选文指南 步骤 ---------- */
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;}
+  .step{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:22px;position:relative;
+  }
+  .step .num{
+    font-size:26px;font-weight:700;color:#e8d3dc;line-height:1;
+    margin-bottom:12px;letter-spacing:1px;
+  }
+  .step h3{margin:0 0 8px;font-size:16px;}
+  .step p{margin:0;font-size:14.5px;color:var(--ink-soft);}
+
+  /* ---------- 分类导航条 ---------- */
+  .chip-row{display:flex;flex-wrap:wrap;gap:10px;}
+  .chip{
+    font-size:14px;padding:8px 16px;border-radius:999px;
+    background:#fff;border:1px solid var(--line);color:var(--ink-soft);
+  }
+  .chip:hover{border-color:var(--rose);color:var(--rose-deep);text-decoration:none;}
+
+  /* ---------- FAQ ---------- */
+  .faq{display:grid;gap:14px;}
+  details{
+    background:#fff;border:1px solid var(--line);border-radius:12px;
+    padding:0 20px;overflow:hidden;
+  }
+  details[open]{border-color:#e7c9d6;box-shadow:var(--shadow);}
+  summary{
+    cursor:pointer;list-style:none;padding:17px 0;
+    font-size:16px;font-weight:600;position:relative;padding-right:34px;
+  }
+  summary::-webkit-details-marker{display:none;}
+  summary::after{
+    content:"+";position:absolute;right:2px;top:50%;transform:translateY(-50%);
+    font-size:20px;color:var(--rose);font-weight:400;
+  }
+  details[open] summary::after{content:"–";}
+  details p{margin:0 0 18px;font-size:14.8px;color:var(--ink-soft);}
+
+  /* ---------- 页脚 ---------- */
+  .site-footer{
+    background:var(--plum);color:#e6dbe2;padding:44px 0 30px;margin-top:10px;
+  }
+  .footer-grid{
+    display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px;
+    padding-bottom:26px;border-bottom:1px solid rgba(255,255,255,.14);
+  }
+  .site-footer h4{margin:0 0 12px;font-size:15px;color:#fff;}
+  .site-footer p{margin:0;font-size:14px;line-height:1.85;color:#c8b8c3;}
+  .site-footer ul{margin:0;padding:0;list-style:none;}
+  .site-footer li{margin-bottom:8px;font-size:14px;}
+  .site-footer a{color:#c8b8c3;}
+  .site-footer a:hover{color:#fff;text-decoration:none;}
+  .copyright{
+    padding-top:20px;font-size:13px;color:#a8979f;
+    display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;
+  }
+
+  /* ---------- 响应式 ---------- */
+  @media (max-width:960px){
+    .hero-grid,.concept-grid,.notice-grid{grid-template-columns:1fr;}
+    .footer-grid{grid-template-columns:1fr 1fr;}
+    .hero{padding:40px 0 36px;}
+    section{padding:44px 0;}
+  }
+  @media (max-width:640px){
+    .header-inner{flex-direction:column;align-items:flex-start;gap:12px;}
+    .site-nav{gap:4px;}
+    .site-nav a{padding:6px 11px;font-size:13.5px;}
+    .hero h1{font-size:25px;}
+    .hero-card{padding:20px;}
+    .footer-grid{grid-template-columns:1fr;}
+    .copyright{flex-direction:column;}
+    section{padding:38px 0;}
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <div class="brand-mark">虐</div>
+      <div class="brand-text">
+        <strong>虐身文标签解读</strong>
+        <span>网络文学标签 · 类型梳理 · 阅读参考</span>
+      </div>
+    </div>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="#concept">概念辨析</a>
+      <a href="#types">常见类型</a>
+      <a href="#notice">阅读提示</a>
+      <a href="#choose">选文方法</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">标签科普</span>
+        <h1>虐身文：先弄清<em>标签含义</em>，再决定要不要读</h1>
+        <p class="lead">
+          “虐身文”是网络文学圈里常见的一类标签，用来提示作品中存在对身体痛苦、伤病、折磨等情节的集中描写。它不是一种题材分类，而是一种内容提示。理解这个标签指向什么、通常和哪些题材一起出现、阅读时需要注意什么，比直接寻找书单更有意义。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#concept">了解标签含义</a>
+          <a class="btn btn-ghost" href="#notice">阅读前提示</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <h2>本文能帮你解决</h2>
+        <ul>
+          <li>虐身文到底指什么，和“虐心”有什么区别</li>
+          <li>它常出现在哪些题材与情节结构中</li>
+          <li>哪些内容需要提前做好心理准备</li>
+          <li>怎样按自己的接受度筛选作品</li>
+          <li>看到标签时应关注哪些附加说明</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 概念辨析 -->
+  <section id="concept">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">CONCEPT</span>
+        <h2>虐身文是什么：先把标签拆开看</h2>
+        <p>在读者自发形成的标签体系里，“虐身”强调的是身体层面的受苦描写，而“虐心”强调的是情感与心理层面的折磨。两者经常同时出现，但指向并不相同。</p>
+      </div>
+
+      <div class="concept-grid">
+        <div class="prose">
+          <p>
+            <strong>从字面理解</strong>，“虐身文”可以拆成“虐”“身”“文”三部分：虐指情节中的伤害与痛苦，身指身体层面，文则说明它是对一类文字作品的描述。合起来，就是“以身体受苦情节为显著特征的作品”。
+          </p>
+          <p>
+            需要说明的是，它并不是一个官方或学术意义上的文学分类，而是读者在长期阅读交流中形成的<strong>检索用标签</strong>。不同平台、不同读者群体对它的理解范围会有差异：有的偏向伤病与治疗过程，有的偏向囚禁与折磨，有的则把打斗受伤、刑罚情节也算在内。
+          </p>
+          <p>
+            因此，看到这个标签时，更稳妥的做法是把它当成一个<strong>内容强度提示</strong>，而不是作品质量的判断标准。标签只能告诉你“里面可能有这类描写”，不能告诉你写得好不好、是否适合自己。
+          </p>
+          <p>
+            另外，这类标签往往和其他标签组合出现，比如题材标签、关系标签、结局标签。单独看一个词容易误判，把几个标签放在一起看，判断会准确得多。
+          </p>
+        </div>
+
+        <div class="term-list">
+          <div class="term">
+            <h3>虐身</h3>
+            <p>侧重身体层面的痛苦描写，如受伤、疾病、囚禁、体罚等情节带来的生理折磨。</p>
+          </div>
+          <div class="term">
+            <h3>虐心</h3>
+            <p>侧重情感与心理层面的折磨，如误会、背叛、求而不得带来的精神痛苦。</p>
+          </div>
+          <div class="term">
+            <h3>双虐</h3>
+            <p>读者用来描述身体与心理两条线同时受压的作品，通常情绪强度更高。</p>
+          </div>
+          <div class="term">
+            <h3>甜虐</h3>
+            <p>指整体基调在温暖与痛苦之间来回切换，苦尽甘来式的结构较为常见。</p>
+          </div>
+          <div class="term">
+            <h3>治愈 / 救赎</h3>
+            <p>常与受苦情节搭配出现，用来指向人物走出困境、获得修复的过程。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 常见类型 -->
+  <section id="types" class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">TYPES</span>
+        <h2>常见的几类情节走向</h2>
+        <p>下面这些分类来自读者讨论中反复出现的模式，用来帮助理解结构，并不代表全部作品，也不构成对任何具体作品的评价。</p>
+      </div>
+
+      <div class="type-grid">
+        <article class="type-card">
+          <span class="tag">伤病线</span>
+          <h3>伤病与治疗过程</h3>
+          <p>人物因意外或旧疾承受身体痛苦，情节围绕治疗、恢复、反复发作展开。这类写法通常会把大量笔墨放在身体感受与陪护关系上。</p>
+        </article>
+        <article class="type-card">
+          <span class="tag">囚禁线</span>
+          <h3>限制自由与身体压迫</h3>
+          <p>人物被限制行动、受到控制或体罚，身体痛苦与关系中的权力不对等同时存在，情绪张力往往比较集中。</p>
+        </article>
+        <article class="type-card">
+          <span class="tag">刑罚线</span>
+          <h3>刑罚与惩戒情节</h3>
+          <p>多见于古代背景或架空设定，通过刑罚、拷问等桥段推动剧情，通常伴随身份冲突与立场对立。</p>
+        </article>
+        <article class="type-card">
+          <span class="tag">战斗线</span>
+          <h3>战斗重伤与代价</h3>
+          <p>在玄幻、武侠、军事等题材中，受伤是推进主线的常见手段，身体的损耗被用来体现选择的分量。</p>
+        </article>
+        <article class="type-card">
+          <span class="tag">牺牲线</span>
+          <h3>自我牺牲与承受</h3>
+          <p>人物主动承担痛苦以换取他人安全或目标达成，身体受苦与道德选择绑定在一起，情感冲击较强。</p>
+        </article>
+        <article class="type-card">
+          <span class="tag">修复线</span>
+          <h3>受苦之后的修复</h3>
+          <p>重点放在人物如何从身体与心理的创伤中走出来，节奏相对缓慢，落脚点通常在重建与陪伴。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 阅读提示 -->
+  <section id="notice">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">NOTICE</span>
+        <h2>阅读之前，值得先想清楚的两件事</h2>
+        <p>这类内容涉及身体痛苦描写，阅读体验因人而异。提前了解自己的接受范围，比事后不适要好得多。</p>
+      </div>
+
+      <div class="notice-grid">
+        <div class="notice">
+          <h3><span class="dot"></span>关于心理感受</h3>
+          <ol>
+            <li>先确认自己当下的情绪状态，疲惫或低落时对高强度情节的耐受度会明显下降。</li>
+            <li>注意区分“阅读时的紧张感”和“读完之后的不适感”，后者出现时应及时停下。</li>
+            <li>不必因为别人说“好看”就勉强自己读完，阅读偏好没有高下之分。</li>
+            <li>如果某类描写让你反复回想、影响睡眠，说明它超出了你的舒适区。</li>
+          </ol>
+        </div>
+        <div class="notice">
+          <h3><span class="dot"></span>关于内容选择</h3>
+          <ol>
+            <li>优先选择有明确标签说明和内容提示的作品，信息越清楚越容易判断。</li>
+            <li>留意标签之外的附加说明，例如篇幅、结局走向、是否包含其他敏感内容。</li>
+            <li>对来源不明的转载内容保持谨慎，正规渠道通常有更完整的信息标注。</li>
+            <li>遇到明显违背公序良俗或涉嫌违规的内容，应主动避开，不要传播。</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 选文方法 -->
+  <section id="choose" class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">HOW TO CHOOSE</span>
+        <h2>按接受度筛选作品的四个步骤</h2>
+        <p>与其到处找书单，不如掌握一套自己的判断方法。下面这套流程适用于大多数带标签的网络文学作品。</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="num">01</div>
+          <h3>先看标签组合</h3>
+          <p>把题材标签、关系标签、结局标签放在一起看。单个“虐身”信息量有限，组合起来才能大致判断强度与走向。</p>
+        </div>
+        <div class="step">
+          <div class="num">02</div>
+          <h3>再读内容提示</h3>
+          <p>作者或平台给出的提示说明往往比标签更具体，会指出哪些情节需要提前留意，这部分值得认真读完。</p>
+        </div>
+        <div class="step">
+          <div class="num">03</div>
+          <h3>试读前几章</h3>
+          <p>用少量章节判断文字风格和情节密度是否合口味，不必一开始就投入大量时间。</p>
+        </div>
+        <div class="step">
+          <div class="num">04</div>
+          <h3>随时可以停</h3>
+          <p>读到不适就放下，不需要理由。阅读是为了获得体验，而不是完成任务。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 标签导航 -->
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">RELATED TAGS</span>
+        <h2>常与它一起出现的相关标签</h2>
+        <p>了解这些相邻标签，有助于更准确地理解一部作品的整体基调。以下仅为标签含义说明，不指向任何具体作品。</p>
+      </div>
+      <div class="chip-row">
+        <span class="chip">虐心</span>
+        <span class="chip">双虐</span>
+        <span class="chip">甜虐</span>
+        <span class="chip">破镜重圆</span>
+        <span class="chip">追妻火葬场</span>
+        <span class="chip">先虐后甜</span>
+        <span class="chip">治愈</span>
+        <span class="chip">救赎</span>
+        <span class="chip">成长</span>
+        <span class="chip">群像</span>
+        <span class="chip">古代背景</span>
+        <span class="chip">架空设定</span>
+        <span class="chip">现代都市</span>
+        <span class="chip">短篇</span>
+        <span class="chip">长篇连载</span>
+        <span class="chip">已完结</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">FAQ</span>
+        <h2>常见问题</h2>
+        <p>以下是读者在接触这一标签时较常提出的疑问，回答以标签本身的含义与阅读习惯为主。</p>
+      </div>
+
+      <div class="faq">
+        <details open>
+          <summary>虐身文和虐心文是同一种吗？</summary>
+          <p>不是。虐身侧重身体层面的痛苦描写，虐心侧重情感与心理层面的折磨。两者经常在同一部作品中出现，读者会用“双虐”来描述这种情况，但它们指向的描写对象不同，不能互相替代。</p>
+        </details>
+        <details>
+          <summary>有“虐身”标签的作品一定很沉重吗？</summary>
+          <p>不一定。标签只表示作品中存在这类描写，强度、篇幅占比和整体基调因作品而异。有的作品只是个别章节涉及，有的则贯穿始终。判断时还需要结合其他标签和内容提示。</p>
+        </details>
+        <details>
+          <summary>为什么不同平台对这类标签的划分不一样？</summary>
+          <p>因为这类标签来自读者社群的自发使用，没有统一标准。平台规模、用户构成、审核规则不同，标签的覆盖范围和严格程度就会有差异。跨平台寻找作品时，以该平台自身的标签说明为准更稳妥。</p>
+        </details>
+        <details>
+          <summary>读完之后情绪不太好，怎么办？</summary>
+          <p>可以暂时离开这类内容，换一些基调轻松的作品，或者做点别的事情转移注意力。如果这种不适感持续存在并影响到日常生活，建议向身边可信任的人倾诉，必要时寻求专业心理帮助。</p>
+        </details>
+        <details>
+          <summary>怎样判断一部作品是否适合自己？</summary>
+          <p>比较实用的做法是：先看标签组合，再读内容提示，然后试读少量章节，最后根据自己的实际感受决定是否继续。任何一环让你觉得不舒服，都可以直接停下，不需要勉强。</p>
+        </details>
+        <details>
+          <summary>这类标签的作品适合什么年龄阅读？</summary>
+          <p>这取决于具体作品的内容构成，不能一概而论。涉及较强情节描写的作品，通常不适合未成年读者。选择时应参考平台的年龄提示与内容分级说明，并遵守所在地的相关规定。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>关于本站</h4>
+        <p>本站是一个围绕网络文学标签进行含义解读与阅读参考的信息页面，帮助读者理解标签指向、判断内容强度、形成自己的筛选习惯。页面内容不提供作品下载，也不对任何具体作品作出评价。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#concept">概念辨析</a></li>
+          <li><a href="#types">常见类型</a></li>
+          <li><a href="#notice">阅读提示</a></li>
+          <li><a href="#choose">选文方法</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>阅读建议</h4>
+        <ul>
+          <li>按自己的接受度选择内容</li>
+          <li>留意平台标签与内容提示</li>
+          <li>感到不适时及时停止阅读</li>
+          <li>遵守当地法律法规与平台规则</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <span>虐身文标签解读 · 内容仅供阅读参考</span>
+      <span>请理性阅读，注意情绪调节</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // 导航平滑滚动（对不支持 scroll-behavior 的浏览器做兜底）
+  document.querySelectorAll('a[href^="#"]').forEach(function(link){
+    link.addEventListener('click', function(e){
+      var id = this.getAttribute('href');
+      if(id.length < 2) return;
+      var target = document.querySelector(id);
+      if(!target) return;
+      e.preventDefault();
+      var top = target.getBoundingClientRect().top + window.pageYOffset - 76;
+      window.scrollTo({top: top, behavior: 'smooth'});
+    });
+  });
+
+  // 同一时间只展开一个常见问题
+  var items = document.querySelectorAll('.faq details');
+  items.forEach(function(item){
+    item.addEventListener('toggle', function(){
+      if(item.open){
+        items.forEach(function(other){
+          if(other !== item) other.open = false;
+        });
+      }
+    });
+  });
+</script>
+
+</body>
+              </html>
